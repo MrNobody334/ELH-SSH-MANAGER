@@ -212,10 +212,10 @@ service ssh restart
 # rm -r sslfix
 echo "Type Your Web Panal Password"
 # Add User 
-adduser opcroot
+adduser elhroot
 sleep 10s
 # Grant Superuser Privileges to Newly added User
-usermod -aG sudo opcroot
+usermod -aG sudo elhroot
 clear
 echo "Server Make-up Finished !"
 # Remove opcmake file
