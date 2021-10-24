@@ -989,7 +989,7 @@ fun_teste() {
 	EOF
     chmod +x /etc/SSHPlus/userteste/$usuario.sh
     echo "/etc/SSHPlus/userteste/$usuario.sh" | at now + $t_time hour >/dev/null 2>&1
-    [[ "$t_time" == '1' ]] && hrs="hora" || hrs="horas"
+    [[ "$t_time" == '1' ]] && hrs="hour" || hrs="hours"
     [[ "$(ls /etc/bot/arquivos | wc -l)" != '0' ]] && {
         for arqv in $(ls /etc/bot/arquivos); do
             ShellBot.sendDocument --chat_id ${message_from_id[$id]} \
