@@ -22,7 +22,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/mo
 ✅Firewalld Added (with port open).<br>
 ✅Webmin Panal Added. (port 10000)<br>
 ✅Cockpit Added. (port 9090)<br>
-✅Adding New Users ()
+✅Adding New Users (elhroot)
 
 # Requirements
 * Linux (Ubuntu or Debian) based operating system
