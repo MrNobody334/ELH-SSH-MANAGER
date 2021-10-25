@@ -953,7 +953,7 @@ fun_add_teste() {
 }
 
 fun_teste() {
-    usuario=$(echo teste$((RANDOM % +500)))
+    usuario=$(echo test$((RANDOM % +500)))
     Password='1234'
     limite='1'
     t_time=$1
