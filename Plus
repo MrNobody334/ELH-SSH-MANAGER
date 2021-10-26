@@ -222,7 +222,7 @@ echo "Server Make-up Finished !"
 # rm -r opcmake
 echo -e "\033[1;31m \033[1;33mMAIN COMMAND: \033[1;32mmenu\033[0m"
 echo -e "\033[1;33m MORE INFORMATION \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m @elh_netwoxcloud_live_user \033[0m"
-rm $HOME/Plus
-rm Plus && cat /dev/null > ~/.bash_history && history -c
+# Remove Script
+rm Plus
 
 
