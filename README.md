@@ -17,7 +17,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/mo
 <p>
 ✅SSL Fixed. <br>
 ✅SpeedTest Fixed. <br>
-✅Auto Reboot Every day at 05:00 (GMT+5:30) Added.<br>
+✅Auto Reboot Every day at 00:00 (GMT+5:30) Added.<br>
 ✅Auto Junk Clean Every Month Added.<br>
 ✅Firewalld Added (with port open).<br>
 ✅Webmin Panal Added. (port 10000)<br>
